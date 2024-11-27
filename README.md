@@ -35,15 +35,5 @@ link: https://zenodo.org/records/13734581
 3. Configure database connection in notebooks
 4. Run notebooks in sequence (RQ1 → RQ2). It is recommended to run cell by cell, as some processes take a significant amount of time.
 
-## Citation
-If you use this analysis in your research, please cite:  
-
-@inproceedings{lake2025unveiling,  
-  title={Unveiling Dependency Clusters and Security Risks in the Maven Ecosystem Using Neo4j Analysis},  
-  author={Lake, George and Zibran, Minhaz},  
-  booktitle={Proceedings of the 21st International Conference on Mining Software Repositories},  
-  year={2025}  
-}
-
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
