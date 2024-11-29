@@ -31,9 +31,10 @@ link: https://zenodo.org/records/13734581
 ## Reproduction Steps
 
 1. Set up Neo4j database with the Goblin Maven dump
-2. Install Python packages, listed in requirements section
+2. Install Python packages, listed in the requirements section
 3. Configure database connection in notebooks
 4. Run notebooks in sequence (RQ1 → RQ2). It is recommended to run cell by cell, as some processes take a significant amount of time.
+5. Note: Each time the Leiden algorithm is run, it will find a different amount of clusters (not significantly different) and will assign different communityIDs
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
